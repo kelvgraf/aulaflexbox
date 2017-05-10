@@ -1,0 +1,55 @@
+body section div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #FEF886;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+img{ 
+border-radius: 50%
+}
+
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.container{
+	background-color: #008080;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 700px;
+	height: 460px;
+}
+.item{
+	background-color: #00FFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 5px;
+	height: 200px;
+	width: 200px;
+}
